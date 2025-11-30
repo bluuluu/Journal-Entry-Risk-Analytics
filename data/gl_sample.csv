@@ -1,0 +1,23 @@
+entry_id,entity,je_number,line_num,account,offset_account,description,amount,currency,debit_credit,posting_date,posting_timestamp,time_zone,created_by,source,approval_status
+1001,US,JE-2024-001,1,4000,1000,"Office supplies",125.00,USD,D,2024-01-15,2024-01-15T10:15:00,America/New_York,jdoe,ERP,approved
+1001,US,JE-2024-001,2,1000,4000,"Office supplies",125.00,USD,C,2024-01-15,2024-01-15T10:15:00,America/New_York,jdoe,ERP,approved
+1002,US,JE-2024-002,1,5000,1000,"Quarterly bonus accrual",25000.00,USD,C,2024-01-31,2024-01-31T23:55:00,America/New_York,asmith,ERP,approved
+1002,US,JE-2024-002,2,1000,5000,"Quarterly bonus accrual",25000.00,USD,D,2024-01-31,2024-01-31T23:55:00,America/New_York,asmith,ERP,approved
+1003,UK,JE-2024-003,1,6100,2000,"Fixed asset addition",5000.00,GBP,D,2024-02-10,2024-02-10T09:05:00,Europe/London,mjohnson,ERP,approved
+1003,UK,JE-2024-003,2,2000,6100,"Fixed asset addition",5000.00,GBP,C,2024-02-10,2024-02-10T09:05:00,Europe/London,mjohnson,ERP,approved
+1004,US,JE-2024-004,1,7000,1000,"Write-off",100000.00,USD,D,2024-02-12,2024-02-12T02:15:00,America/New_York,jdoe,Manual,approved
+1004,US,JE-2024-004,2,1000,7000,"Write-off",100000.00,USD,C,2024-02-12,2024-02-12T02:15:00,America/New_York,jdoe,Manual,approved
+1005,US,JE-2024-005,1,8100,1000,"Round-dollar trial entry",1000.00,USD,D,2024-02-14,2024-02-14T12:10:00,America/New_York,bwilson,Manual,pending
+1005,US,JE-2024-005,2,1000,8100,"Round-dollar trial entry",1000.00,USD,C,2024-02-14,2024-02-14T12:10:00,America/New_York,bwilson,Manual,pending
+1006,US,JE-2024-006,1,5200,1000,"Weekend revenue true-up",9800.00,USD,C,2024-03-02,2024-03-02T14:20:00,America/New_York,asmith,ERP,approved
+1006,US,JE-2024-006,2,1000,5200,"Weekend revenue true-up",9800.00,USD,D,2024-03-02,2024-03-02T14:20:00,America/New_York,asmith,ERP,approved
+1007,APAC,JE-2024-007,1,4300,2100,"Late-night adjustment",45000.00,USD,D,2024-03-28,2024-03-28T03:40:00,Asia/Singapore,csung,Manual,approved
+1007,APAC,JE-2024-007,2,2100,4300,"Late-night adjustment",45000.00,USD,C,2024-03-28,2024-03-28T03:40:00,Asia/Singapore,csung,Manual,approved
+1008,US,JE-2024-008,1,4000,1000,"Duplicate style entry",125.00,USD,D,2024-03-30,2024-03-30T11:00:00,America/New_York,jdoe,ERP,approved
+1008,US,JE-2024-008,2,1000,4000,"Duplicate style entry",125.00,USD,C,2024-03-30,2024-03-30T11:00:00,America/New_York,jdoe,ERP,approved
+1009,US,JE-2024-009,1,9999,4000,"Unknown account usage",3000.00,USD,D,2024-04-05,2024-04-05T08:45:00,America/New_York,bwilson,Manual,approved
+1009,US,JE-2024-009,2,4000,9999,"Unknown account usage",3000.00,USD,C,2024-04-05,2024-04-05T08:45:00,America/New_York,bwilson,Manual,approved
+1010,US,JE-2024-010,1,5000,1000,"Period-close adjustment",22000.00,USD,C,2024-04-30,2024-04-30T21:20:00,America/New_York,asmith,ERP,approved
+1010,US,JE-2024-010,2,1000,5000,"Period-close adjustment",22000.00,USD,D,2024-04-30,2024-04-30T21:20:00,America/New_York,asmith,ERP,approved
+1011,US,JE-2024-011,1,4000,1000,"Description with keyword gift",600.00,USD,D,2024-05-05,2024-05-05T12:00:00,America/New_York,mjohnson,ERP,approved
+1011,US,JE-2024-011,2,1000,4000,"Description with keyword gift",600.00,USD,C,2024-05-05,2024-05-05T12:00:00,America/New_York,mjohnson,ERP,approved
