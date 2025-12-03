@@ -56,6 +56,13 @@ python3 src/risk_scoring.py --input data/gl_sample.csv --output data/risk_scores
 - Visuals: time-of-day heatmap for postings, weekend vs weekday split, risk score distribution, bar of top recurring users/entities by aggregate risk.
 - Drill path: Entry -> Lines -> Source info (user, timestamp, approval) -> Flags triggered.
 
+## What it does
+- What it does: flags risky journal entries so auditors focus on likely issues instead of broad sampling, using explainable indicators (timing, amount patterns, approvals, user behavior, keywords).
+- How it works: SQL-first feature engineering (`sql/01_feature_flags.sql`) with a matching pandas pipeline (`src/risk_scoring.py`) that scores sample GL data (`data/gl_sample.csv`) into a dashboard-ready file (`data/risk_scores.csv`).
+- Output: per-entry risk_score plus individual flag columns ready for Power BI/Tableau; dashboards highlight the riskiest entries with flag breakdowns and drill-through to line detail.
+- Why it matters: improves audit efficiency and coverage; logic is transparent, tunable, and can be back-tested; designed to run locally or on a scheduler (Airflow/Prefect/cron).
+- Next steps you can mention: per-entity business-hour configs, data-quality checks, scheduled runs with logging, row-level security in BI, and calibration against historical findings.
+
 ## Next steps to productionize
 - Parameterize business hours/weekends per entity from a config table.
 - Add data-quality checks (duplicate JEs, missing timestamps, invalid time zones).
